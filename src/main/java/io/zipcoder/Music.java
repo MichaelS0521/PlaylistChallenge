@@ -2,12 +2,18 @@ package io.zipcoder;
 
 public class Music {
 
-    private String[] playList;
+    private String[] playList;  // Initializes playList[]
 
+    /*
+    Constructor for playList.
+     */
     public Music(String[] playList){
         this.playList = playList;
     }
 
+    /*
+    Crate an up and down solution that checks through playList[] and finds Selected Integer.
+     */
     public Integer selection(Integer startIndex, String selection){
         int indexNum = -1;
         int length = playList.length;
